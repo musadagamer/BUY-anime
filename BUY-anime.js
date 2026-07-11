@@ -93,13 +93,10 @@ function renderProducts(filter = '') {
     });
 }
 
-const sidebarShell = document.getElementById('sidebarShell');
-const sidebarBtn = document.getElementById('sidebarBtn');
-
 sidebarBtn.addEventListener('click', () => {
-  const isOpen = sidebarShell.classList.toggle('open');
-  sidebarBtn.setAttribute('aria-expanded', String(isOpen));
-  document.getElementById('sidebar').setAttribute('aria-hidden', String(!isOpen));
+    const isOpen = sidebar.classList.toggle('open');
+    sidebar.setAttribute('aria-hidden', String(!isOpen));
+    sidebarBtn.setAttribute('aria-expanded', String(isOpen));
 });
 
 renderProducts();
