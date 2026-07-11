@@ -93,14 +93,13 @@ function renderProducts(filter = '') {
     });
 }
 
-sidebarBtn.addEventListener('click', () => {
-    const isOpen = sidebar.classList.toggle('open');
-    sidebar.setAttribute('aria-hidden', String(!isOpen));
-    sidebarBtn.setAttribute('aria-expanded', String(isOpen));
-});
+const sidebarShell = document.getElementById('sidebarShell');
+const sidebarBtn = document.getElementById('sidebarBtn');
 
-searchInput.addEventListener('input', (event) => {
-    renderProducts(event.target.value);
+sidebarBtn.addEventListener('click', () => {
+  const isOpen = sidebarShell.classList.toggle('open');
+  sidebarBtn.setAttribute('aria-expanded', String(isOpen));
+  document.getElementById('sidebar').setAttribute('aria-hidden', String(!isOpen));
 });
 
 renderProducts();
