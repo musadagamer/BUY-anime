@@ -225,9 +225,7 @@ main {
     margin-bottom: 18px;
 }
 
- 
-   .anime1       {background-image: url('1');}
-
+.anime1 {background-image: url('1');}
 .anime2 { background-image: url('2'); }
 .anime3 { background-image: url('3'); }
 .anime4 { background-image: url('4'); }
