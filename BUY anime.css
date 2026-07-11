@@ -246,7 +246,9 @@ main {
 .anime7 {
     background-image: url('7');
 }
-.anime8 { background-image: radial-gradient(circle at top, #ffd166 0%, #4d2d0f 100%); }
+.anime8 {
+    background-image: url('8');
+}
 .anime9 { background-image: radial-gradient(circle at top, #ff6f91 0%, #3d0b2b 100%); }
 .anime10 { background-image: radial-gradient(circle at top, #74f2ce 0%, #0f2a35 100%); }
 
