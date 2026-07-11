@@ -5,61 +5,61 @@ const productsGrid = document.getElementById('productsGrid');
 
 const products = [
     {
-        name: 'Shadow Samurai',
-        description: 'Poseable figure with sword and armor.',
-        price: 'From $45',
+        name: 'JJK chibi ',
+        description: 'JJK chibi figure gojo and gato',
+        price: 'From pkr 1700 50% discount',
         imageClass: 'anime1'
     },
     {
-        name: 'Galaxy Guardian',
-        description: 'Light-up base and collector’s box.',
-        price: 'From $58',
+        name: 'saturo gojo ',
+        description: 'premium collectible saturo gojo action figure 24% off',
+        price: 'From pkr 2500',
         imageClass: 'anime2'
     },
     {
-        name: 'Hero Spirit',
-        description: 'Deluxe figure with extra hands.',
-        price: 'From $50',
+        name: 'jjk keyboard and mousepad',
+        description: 'gojo and gato keyboard and mousepad',
+        price: 'From pkr 1500 35% off',
         imageClass: 'anime3'
     },
     {
-        name: 'Neon Dragon',
-        description: 'Glow-effect figure with a dramatic pose.',
-        price: 'From $62',
+        name: 'tanjiro action figure',
+        description: 'tanjiro demon slayer premium collectible',
+        price: 'From pkr 3000 90% off',
         imageClass: 'anime4'
     },
     {
-        name: 'Storm Knight',
-        description: 'Battle-ready armor and collectible shield.',
-        price: 'From $54',
+        name: 'uchicha itachi ',
+        description: 'itachi uchicha premium action figure naruto',
+        price: 'from  pkr 5500 50% off',
         imageClass: 'anime5'
     },
     {
-        name: 'Moon Ranger',
-        description: 'Limited edition with silver detailing.',
-        price: 'From $48',
+        name: 'itachi uchicha',
+        description: 'small itachi action figure.',
+        price: 'From pkr 3500',
         imageClass: 'anime6'
     },
     {
-        name: 'Cosmic Ninja',
-        description: 'Fast-moving figure with interchangeable blades.',
-        price: 'From $57',
+        name: 'sasuke uchicha',
+        description: 'sasuke uchicha premium action figure',
+        price: 'From pkr 3500',
         imageClass: 'anime7'
     },
     {
-        name: 'Ember Titan',
-        description: 'Huge statue-style figure with flaming base.',
-        price: 'From $70',
+        name: 'itachi anbu',
+        description: 'uchicha itachi anbu style',
+        price: 'From pkr 3000',
         imageClass: 'anime8'
     },
     {
-        name: 'Prism Fox',
+        name: 'out of stock',
         description: 'Stylish figure with color-shifting accessories.',
         price: 'From $53',
         imageClass: 'anime9'
     },
     {
-        name: 'Titan Blade',
+        name: 'out of stock',
         description: 'Premium figure with a display stand and extra blades.',
         price: 'From $66',
         imageClass: 'anime10'
