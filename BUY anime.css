@@ -225,30 +225,16 @@ main {
     margin-bottom: 18px;
 }
 
-.anime1 {
-    background-image: url('1');
-}
-.anime2 {
-    background-image: url('2');
-}
-.anime3 {
-    background-image: url('3');
-}
-.anime4 {
-    background-image: url('4');
-}
-.anime5 {
-    background-image: url('5');
-}
-.anime6 {
-    background-image: url('6');
-}
-.anime7 {
-    background-image: url('7');
-}
-.anime8 {
-    background-image: url('8');
-}
+ 
+   .anime1       {background-image: url('1.jpg');}
+
+.anime2 { background-image: url('2.jpg'); }
+.anime3 { background-image: url('3.jpg'); }
+.anime4 { background-image: url('4.jpg'); }
+.anime5 { background-image: url('5.jpg'); }
+.anime6 { background-image: url('6.jpg'); }
+.anime7 { background-image: url('7.jpg'); }
+.anime8 { background-image: url('8.jpg'); }
 .anime9 { background-image: radial-gradient(circle at top, #ff6f91 0%, #3d0b2b 100%); }
 .anime10 { background-image: radial-gradient(circle at top, #74f2ce 0%, #0f2a35 100%); }
 
