@@ -6,7 +6,7 @@ const productsGrid = document.getElementById('productsGrid');
 const products = [
     {
         name: 'JJK chibi ',
-        description: 'JJK chibi figure gojo and gato',
+        description: 'JJK chibi figure gojo and geto',
         price: 'From pkr 1700 50% discount',
         imageClass: 'anime1'
     },
@@ -18,7 +18,7 @@ const products = [
     },
     {
         name: 'jjk keyboard and mousepad',
-        description: 'gojo and gato keyboard and mousepad',
+        description: 'gojo and geto keyboard and mousepad',
         price: 'From pkr 1500 35% off',
         imageClass: 'anime3'
     },
